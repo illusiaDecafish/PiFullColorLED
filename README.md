@@ -1,6 +1,7 @@
 # FullColorLED controlled from Raspberry Pi
 
 ["Inteligent control RGB LED"](http://www.image.micros.com.pl/_dane_techniczne_auto/olrgb.5m600.pdf)  is tried to be driven from Raspberry Pi with pigpio library.
+
 ##LED electrical spec.
 
 LED has 4 external pins i.e., D<sub>DD</sub>, GND, D<sub>IN</sub> and D<sub>OUT</sub>. Supply voltage D<sub>DD</sub> should be between 3.5V to 6V. It seems to be assumed 5V use. Typical current of LED is 15mA.
@@ -165,7 +166,7 @@ The example code assumes Raspberry Pi with an external circuit like,
 
 See detail in the main function in 'mainWave.c' and its operating video here.
 
-[![YouTubeVideo](youTubeVideo.jpg)](https://www.youtube.com/GlYyY98fI0Q)
+[![YouTubeVideo](youTubeVideo.jpg)](https://youtu.be/GlYyY98fI0Q)
 
 
 
